@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="conta_text">50sp</dimen>
+    <dimen name="normal_padding">18dp</dimen>
+    <dimen name="layout_margin">18dp</dimen>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/conta_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="@dimen/normal_padding"
+        android:text="@string/conta_text"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/conta_text" />
+
+    <Button
+        android:id="@+id/laps_Button"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/layout_margin"
+        android:background="#008080"
+        android:lineSpacingExtra="10sp"
+        android:padding="@dimen/normal_padding"
+        android:shadowColor="#00C03E3E"
+        android:text="@string/count"
+        android:textAlignment="center"
+        android:textColor="#F8F2F2" />
+
+    <Button
+        android:id="@+id/refresh_button"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/layout_margin"
+        android:background="#008080"
+        android:padding="@dimen/normal_padding"
+        android:text="@string/Reset"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF" />
+
+    <ImageView
+        android:id="@+id/transparent"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:padding="38dp"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/transparente" />
+
+</LinearLayout>
